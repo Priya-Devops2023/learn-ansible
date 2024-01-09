@@ -1,6 +1,6 @@
-- name: Just to say Hello
+- name: Just to say Hello Priya
   hosts: all
   tasks:
-    - name: Say Hello
+    - name: Sample ansible
       ansible.builtin.debug:
-        msg: Hello
+        msg: Hello Priya
